@@ -1,40 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# React Component Library
 
-## Getting Started
+## Description
 
-First, run the development server:
+The React Component Library is a powerful UI development tool built with Next.js and Tailwind CSS. It provides a seamless and stylish experience for building user interfaces. With integrated Storybook for component visualization and Chromatic for visual testing, you can ensure that your components are visually consistent and well-tested across different environments. The build script included generates a production-ready version of the library, drawing inspiration from the shadcn/ui library for foundational ideas.
+
+## Features
+
+- **Built with Next.js**: Leverages Next.js for server-side rendering and static generation.
+- **Styled with Tailwind CSS**: Uses Tailwind CSS for fast and responsive design.
+- **Component Visualization**: Includes Storybook to view and test components interactively.
+- **Visual Testing**: Utilizes Chromatic to prevent UI bugs and maintain consistency.
+- **Production Ready**: Comes with a build script to compile the library into a distributable format.
+
+## Installation
+
+To install the React Component Library, run the following command in your project directory:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install react-component-library
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+or with yarn:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn add react-component-library
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Usage
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Here is a simple example of how to use a component from this library:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```jsx
+import React from 'react';
+import { MyComponent } from 'react-component-library';
 
-## Learn More
+function App() {
+    return <MyComponent />;
+}
 
-To learn more about Next.js, take a look at the following resources:
+export default App;
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Documentation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+For detailed documentation on each component, visit the Storybook documentation. This includes examples, prop definitions, and guidelines for best practices.
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! If you'd like to help improve the React Component Library, please follow these steps:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Fork the repository - Fork the project to your GitHub account.
+2. Clone your fork - `git clone https://github.com/Meitchouk/react-component-library.git`
+3. Create a Feature Branch - `git checkout -b feature/AmazingFeature`
+4. Make changes - Add or improve features.
+5. Commit your changes - `git commit -m 'Add some AmazingFeature'`
+6. Push to your branch - `git push origin feature/AmazingFeature`
+7. Open a Pull Request - Go to your repository on GitHub and open a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Author
+
+Meitchouk - GitHub
+
+## Repository
+
+[GitHub Repository](https://github.com/Meitchouk/react-component-library.git)
+
+## Keywords
+
+react, nextjs, ui, shadcn/ui, tailwindcss, storybook, chromatic
+
+### Instrucciones de uso:
+
+1. Copia todo el texto desde el principio hasta el final, incluyendo los "```" que delimitan los bloques de código.
+2. Abre el editor de texto que uses para manejar tu repositorio y crea un archivo llamado `README.md`.
+3. Pega el contenido copiado en el archivo `README.md`.
+4. Guarda y, si es necesario, sube los cambios a tu repositorio.
+
+Espero que esto sea lo que necesitas para facilitar la implementación de tu archivo README. Si necesitas más ayuda o alguna modificación, házmelo saber.
+
