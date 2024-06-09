@@ -1,7 +1,7 @@
 {
 
   "name": "react-component-library-meit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React component library created with Next.js and Tailwind CSS that includes Storybook and Chromatic for visual testing. It also includes a build script to generate a production-ready version of the library. This project was based on shadcn/ui library.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
