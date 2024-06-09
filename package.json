@@ -1,6 +1,6 @@
 {
 
-  "name": "react-component-library",
+  "name": "react-component-library-meit",
   "version": "1.0.0",
   "description": "A React component library created with Next.js and Tailwind CSS that includes Storybook and Chromatic for visual testing. It also includes a build script to generate a production-ready version of the library. This project was based on shadcn/ui library.",
   "main": "dist/index.js",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "url-de-tu-repositorio"
+    "url": "https://github.com/Meitchouk/react-component-library.git"
   },
   "keywords": ["react", "nextjs", "ui", "shadcn/ui", "tailwindcss", "storybook", "chromatic"],
   "author": "Meitchouk",
