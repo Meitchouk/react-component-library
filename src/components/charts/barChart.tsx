@@ -21,7 +21,7 @@ import {
   DialogClose,
 } from "../ui/dialog";
 import { Button } from "../ui/button";
-import { BarChartData, BarChartOptions } from "@/types/chartsTypes";
+import { BarChartData as ChartData, BarChartOptions as ChartOptions } from "../../types/chartsTypes";
 
 ChartJS.register(
   CategoryScale,
@@ -33,15 +33,15 @@ ChartJS.register(
 );
 
 interface BarChartProps {
-  data: BarChartData;
-  options: BarChartOptions;
+  data: ChartData;
+  options: ChartOptions;
 }
 
 const BarChart: React.FC<BarChartProps> = ({ data, options }) => {
   const [modalOpen, setModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState("");
 
-  const handleClick = (event: ChartEvent, elements: ActiveElement[]) => {
+  const handleClick = (_event: ChartEvent, elements: ActiveElement[]) => {
     if (elements.length > 0) {
       const elementIndex = elements[0].index;
       const label = data.labels[elementIndex];

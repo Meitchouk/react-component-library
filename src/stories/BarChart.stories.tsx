@@ -1,6 +1,5 @@
-import React from "react";
 import { Meta, StoryObj } from "@storybook/react";
-import BarChart from "@/components/charts/barChart";
+import BarChart from "../components/charts/barChart";
 
 const meta: Meta = {
   title: "Charts/BarChart",

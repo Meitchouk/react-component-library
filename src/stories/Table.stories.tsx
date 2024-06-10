@@ -1,15 +1,6 @@
-// src/stories/Table.stories.tsx
 import { Meta, StoryObj } from '@storybook/react';
-import {
-  Table,
-  TableHeader,
-  TableBody,
-  TableRow,
-  TableHead,
-  TableCell,
-  TableFooter,
-  TableCaption
-} from "@/components/ui/table";
+import { Table, TableHeader, TableBody, TableRow, TableHead, TableCell, TableFooter, TableCaption } from '../components';
+
 
 export default {
   title: 'Components/Table',

@@ -1,4 +1,3 @@
-import React from "react";
 import { Meta, StoryObj } from "@storybook/react";
 import {
   ToastProvider,
@@ -9,7 +8,7 @@ import {
   ToastClose,
   ToastViewport,
 } from "../components/ui/toast";
-import { Button } from "../components/ui/button"; // Ensure this is the correct path
+import { Button } from "../components/ui/button"; 
 import { Cross2Icon } from "@radix-ui/react-icons";
 
 const meta: Meta<typeof Toast> = {

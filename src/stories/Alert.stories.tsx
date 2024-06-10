@@ -1,10 +1,6 @@
-import React from "react";
 import { Meta, StoryObj } from "@storybook/react";
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import {
-  ExclamationTriangleIcon,
-  InfoCircledIcon,
-} from "@radix-ui/react-icons";
+import { Alert, AlertTitle, AlertDescription } from "../components";
+import { InfoCircledIcon, ExclamationTriangleIcon } from "@radix-ui/react-icons";
 
 const meta: Meta<typeof Alert> = {
   title: "Components/Alert",

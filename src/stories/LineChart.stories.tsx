@@ -1,6 +1,5 @@
-import React from "react";
 import { Meta, StoryObj } from "@storybook/react";
-import LineChart from "@/components/charts/lineChart";
+import LineChart from "../components/charts/lineChart";
 
 const meta: Meta = {
   title: "Charts/LineChart",

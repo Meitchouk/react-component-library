@@ -1,10 +1,8 @@
-import React from "react";
 import { Meta, StoryObj } from "@storybook/react";
 import {
   Popover,
   PopoverTrigger,
   PopoverContent,
-  PopoverAnchor,
 } from "../components/ui/popover";
 import { Button } from "../components/ui/button";
 

@@ -2,11 +2,10 @@
 
 ## Description
 
-The React Component Library is a powerful UI development tool built with Next.js and Tailwind CSS. It provides a seamless and stylish experience for building user interfaces. With integrated Storybook for component visualization and Chromatic for visual testing, you can ensure that your components are visually consistent and well-tested across different environments. The build script included generates a production-ready version of the library, drawing inspiration from the shadcn/ui library for foundational ideas.
+The React Component Library is a powerful UI development tool built with Vite and Tailwind CSS. It provides a seamless and stylish experience for building user interfaces. With integrated Storybook for component visualization and Chromatic for visual testing, you can ensure that your components are visually consistent and well-tested across different environments. The build script included generates a production-ready version of the library, drawing inspiration from the shadcn/ui library for foundational ideas.
 
 ## Features
 
-- **Built with Next.js**: Leverages Next.js for server-side rendering and static generation.
 - **Styled with Tailwind CSS**: Uses Tailwind CSS for fast and responsive design.
 - **Component Visualization**: Includes Storybook to view and test components interactively.
 - **Visual Testing**: Utilizes Chromatic to prevent UI bugs and maintain consistency.
