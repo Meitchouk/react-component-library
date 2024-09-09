@@ -72,12 +72,3 @@ Meitchouk - GitHub
 
 react, nextjs, ui, shadcn/ui, tailwindcss, storybook, chromatic
 
-### Instrucciones de uso:
-
-1. Copia todo el texto desde el principio hasta el final, incluyendo los "```" que delimitan los bloques de código.
-2. Abre el editor de texto que uses para manejar tu repositorio y crea un archivo llamado `README.md`.
-3. Pega el contenido copiado en el archivo `README.md`.
-4. Guarda y, si es necesario, sube los cambios a tu repositorio.
-
-Espero que esto sea lo que necesitas para facilitar la implementación de tu archivo README. Si necesitas más ayuda o alguna modificación, házmelo saber.
-
